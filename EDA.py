@@ -2,7 +2,7 @@
 #
 # Exploratory Daya Analysis
 #
-# Basé sur le Kernel
+# Basé sur le Kernel Kaggle "https://www.kaggle.com/code/willkoehrsen/start-here-a-gentle-introduction/notebook"
 #
 # ====================
 
@@ -26,4 +26,5 @@ warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
+# List files available
+print(os.listdir("./input/"))
